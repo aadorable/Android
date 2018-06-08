@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/timg">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="第一个Activity" 
+        android:textSize="30px"
+        android:textColor="#009900"/>
+    
+    <!-- 创建一个选择操作系统的RadioGroup，该组包含3个单选按钮 -->
+    <RadioGroup 
+        android:id="@+id/RG_OS"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择操作系统类型">
+        
+        <!-- 第一个RadioButton -->
+        <RadioButton 
+            android:id="@+id/RG_OS_RB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:textSize="24px"/>
+        
+        <!-- 第二个RadioButton -->
+        <RadioButton 
+            android:id="@+id/RG_OS_RB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Symbian"
+            android:textSize="24px"/>
+        
+        <!-- 第三个RadioButton -->
+        <RadioButton 
+            android:id="@+id/RG_OS_RB3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textSize="24px"/>
+        
+        <Button 
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="24px"/>   
+    </RadioGroup>
+</LinearLayout>
