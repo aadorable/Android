@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">歌单</string>
+    <string name="hello_world"></string>
+    <string name="title_activity_add">添加音乐信息</string>
+    <string name="title_activity_query">音乐列表信息</string>
+
+</resources>
