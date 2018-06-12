@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">查询联系人</string>
+    <string name="hello_world"></string>
+    <string name="title_activity_dbhelper">DBHelper</string>
+    <string name="title_activity_main"></string>
+    <string name="title_activity_query"></string>
+
+</resources>
