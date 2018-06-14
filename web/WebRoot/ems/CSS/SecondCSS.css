@@ -1,0 +1,78 @@
+p
+{
+	border-color:red;
+	border-width:1px;
+	border-style:solid;
+}
+
+h2
+{
+	border:1px solid red;
+}
+
+input {
+	color:white;
+	background-color:silver;
+	border-width:0px;
+}
+input:hover {
+	background-color:gray;
+	border:1px solid black;
+	border-left:1px solid white;
+	border-top:1px solid white;
+	/*border-right:1px solid black;
+	border-bottom:1px solid black;*/
+}
+input:active  {
+	color:red;
+}
+
+div
+{
+	/*display:none;*/
+	width:200px;
+	height:200px;
+	border:1px solid red;
+	background-color:silver;
+}
+
+#div1
+{
+	width:200px;
+	height:200px;
+	background-image:url("clock.png");
+	background-repeat:no-repeat;
+	background-position:-10 -10;
+}
+
+body
+{
+	background-image:url("Spring_bg.jpg");
+	background-attachment:fixed;
+}
+
+#bottomDiv
+{
+	margin-top:30px;
+	padding-top:20px;
+	padding-left:10px;
+	padding:10 20 30 40;
+}
+
+div.tab
+{
+	border:1px solid red;
+	width:100px;
+	height:50px;
+	float:left;
+}
+
+li.menu
+{
+	float:left;
+}
+
+li
+{
+	list-style-type:none;
+}

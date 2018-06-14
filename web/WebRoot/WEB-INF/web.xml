@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+      <servlet-name>register</servlet-name>
+      <servlet-class>com.openlab.RegistServelt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>register</servlet-name>
+  		<url-pattern>/ems/ems/regist</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>login</servlet-name>
+      <servlet-class>com.openlab.LoginServelt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>login</servlet-name>
+  		<url-pattern>/ems/ems/login</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>addtoemp</servlet-name>
+      <servlet-class>com.openlab.AddServelt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>addtoemp</servlet-name>
+  		<url-pattern>/ems/ems/add</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+      <servlet-name>showlist</servlet-name>
+      <servlet-class>com.openlab.ListServelt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>showlist</servlet-name>
+  		<url-pattern>/ems/ems/list</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+      <servlet-name>deleteemp</servlet-name>
+      <servlet-class>com.openlab.DeleteServelt</servlet-class>  
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>deleteemp</servlet-name>
+  		<url-pattern>/ems/ems/delete</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+      <servlet-name>transtoupdatedisplay</servlet-name>
+      <servlet-class>com.openlab.TranstoupdateServelt</servlet-class>  
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>transtoupdatedisplay</servlet-name>
+  		<url-pattern>/ems/ems/transfertoupdate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>updateemp</servlet-name>
+      <servlet-class>com.openlab.UpdateServelt</servlet-class>  
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>updateemp</servlet-name>
+  		<url-pattern>/ems/ems/update</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

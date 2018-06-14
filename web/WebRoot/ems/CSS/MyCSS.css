@@ -1,0 +1,41 @@
+p{
+	color:#00CC00;
+	background-color:silver;
+}
+
+p.first {color:yellow;}
+p.second  {color:blue;}
+
+.errorInfo {color:red;font-size:15pt;}
+
+/*元素ID*/
+#pageTitle {background-color:pink;}
+
+/*群组:常用于为界面的各元素定义字体*/
+p,h1,h2,h3,h4  {}
+p,.errorInfo,p.first,#pageTitle {}
+
+a.out  {color:red;}
+
+/*派生选择器*/
+td a {color:green;}
+td.first a  {}/*<td class="first"><a>*/
+#pageTitle a  {}  /*< id=""><a>*/
+body ul li a  {}
+
+/*伪类*/
+a:link  {font-size:10pt;}
+a:hover  {font-size:20pt;}
+
+h2:hover  {background-color:white;}
+
+h2{
+	color:red;
+	background-color:black;
+}
+
+h1
+{
+	color:red;
+}
+
