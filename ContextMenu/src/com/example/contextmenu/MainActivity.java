@@ -29,34 +29,6 @@ public class MainActivity extends Activity {
         registerForContextMenu(myTV);
     }
     
-    /**
-     * 重写onCreateOptions方法添加选项菜单
-     */
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// 添加菜单项
-		menu.add(0,ITEM1,0,"开始");
-		menu.add(0,ITEM2,0,"退出");
-		return true;
-	}
-	
-    /**
-     * 重写onOptionsItemSelected方法，响应选项菜单被单击事件
-     */
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch(item.getItemId()){
-		case ITEM1:
-			//设置Activity的标题
-			setTitle("开始游戏！");
-			break;
-		case ITEM2:
-			setTitle("退出！");
-			break;
-		}
-		return true;
-	}
-	
 	/**
 	 * 重写onCreateContextMenu方法添加上下文菜单
 	 */
