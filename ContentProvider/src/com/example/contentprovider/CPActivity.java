@@ -1,3 +1,4 @@
+//ÄÚÈİÌá¹©Æ÷
 package com.example.contentprovider;
 
 import android.app.Activity;
